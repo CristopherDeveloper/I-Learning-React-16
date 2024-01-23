@@ -1,0 +1,113 @@
+h1{
+    color: aquamarine;
+}
+
+.image{
+    width: 123em;
+    display: block;
+    position: fixed;
+    top: 0;
+    z-index: -1;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    padding: 8em 0em 0em;
+}
+
+main article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3em;
+    background-color: rgb(255 255 255 / 16%);
+    border-radius: 4em;
+    box-shadow: 0px 0px 20px 20px rgb(0 0 0 / 16%);
+    padding: 0em 1em 8em 1em;
+}
+
+main article > section:first-child{
+    font-size: 3em;
+    color: #51e3ee;
+    font-weight: 300;
+}
+
+main article > section:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    gap: 5em;
+}
+
+.form{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    border-bottom: solid;
+    border-color: rgb(255,255,255);
+    border-width: 0.3em;
+}
+
+.form label img{
+    width: 3em;
+}
+
+.form input{
+    background-color: rgb(255 255 255 / 0%);
+    font-size: 2em;
+    border: none;
+}
+
+.form input:focus{
+    outline: none;
+}
+
+.buttonSingUp{
+    font-size: 1.5em;
+    padding: 1em 2em;
+    border-radius: 2em;
+    border: none;
+    background: #093655;
+    color: rgb(255,255,255);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.buttonSingUp:hover{
+    background-color: #3292d2;
+    padding: 1em 3em;
+}
+
+.contentButton p{
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 700;
+    text-align: center;
+}
+
+footer article > section:first-child > a{
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+footer article > section:first-child > a:hover{
+    text-shadow: 0px 0px 20px #fff;
+    transition: 0.5s;
+}
+
+footer article section:first-child{
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    padding: 5em 0em;
+}
+
+footer article section:last-child p{
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 600;
+    text-align: center;
+}
